@@ -98,5 +98,58 @@ table {
     text-decoration: none;
 }
 .fade-top{
+    height: 160px;
+    background: #000000;
+    border-bottom: 1px solid gray;
+}
+.fade-top .logo{
+    float: left;
+    width: 37%;
+}
+.fade-top .logo img{
+    padding: 50px 0 0 55px;
+}
+.fade-top .social{
+    float: left;
+    width: 63%;
+}
+.fade-top .social img{
+    float: left;
+    padding: 55px 0 0 50px;
+}
+.fade-top .social img:first-child{
+    padding: 25px 0 0;
+}
+.fade-top .social img:last-child{
+    padding: 10px 0 0 45px;
+}
+.main-menu{
+    background: none repeat scroll 0 0 #fff;
+    height: 160px;
+}
+.main-menu .first{
+    height: 100px;
+    font-family: HelveticaLTStdBoldCond;
+}
+.main-menu .first span{
+    color: gray;
+}
+.main-menu>.first>p{
+    color: #000000;
+    padding: 50px 0 0 20px;
+    float: left;
+}
+.main-menu>.first>img{
+    float: left;
+    padding: 20px 0 0 145px;
+}
+.main-menu>.first>.cart{
+    float: right;
+    padding: 20px 15px 0 0;
+}
+.main-menu>.first>.cart>p>img{
+    margin: 0 0 -15px 0
+}
+.main-menu .second{
 
 }
