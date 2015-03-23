@@ -294,6 +294,7 @@ table {
     width: 325px;
     position: absolute;
     top: 295px;
+    display: none;
 }
 .wrapper .shcart .shcart_wrap{
     margin-top: -11px;
@@ -357,4 +358,69 @@ table {
 }
 .wrapper .shcart .shcart_wrap .total{
     width: 275px;
+    font-family: HelveticaLTStdBoldCond;
+    color: #000;
+    font-size: 19px;
+    margin: 10px auto 0;
+}
+.wrapper .shcart .shcart_wrap .total .delivery{
+    color: #4c4c4c;
+    font-size: 12px;
+    float: right;
+
+}
+.wrapper .shcart .shcart_wrap .total .text{
+    float: left;
+}
+.wrapper .shcart .shcart_wrap .total .total_price{
+    float: right;
+}
+.wrapper .shcart .shcart_wrap .total input{
+    background: none repeat scroll 0 0 #000;
+    border-radius: 0;
+    color: #fff;
+    height: 40px;
+    width: 275px;
+    font-family: HelveticaLTStdBoldCond;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-size: 12px;
+}
+.wrapper .drop_down{
+    background: none repeat scroll 0 0 #fff;
+    height: 490px;
+    display: none;
+}
+.wrapper .drop_down img{
+    float: right;
+    padding: 10px;
+}
+.wrapper .drop_down .drop_menu{
+    float: left;
+    width: 190px;
+    margin-top: 46px;
+}
+.wrapper .drop_down .drop_pic{
+    float: left;
+    margin-top: 46px;
+    width: 770px;
+}
+.wrapper .drop_down .drop_menu li{
+    padding: 15px 0 0 30px;
+}
+.wrapper .drop_down .drop_menu li,
+.wrapper .drop_down .drop_menu li a{
+    font-family: HelveticaLTStdBoldCond;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.wrapper .drop_down .drop_menu a{
+    text-decoration: none;
+}
+.wrapper .drop_down .drop_menu li:last-child{
+    margin-top: 35px;
+}
+.wrapper .drop_down .drop_pic a{
+    float: left;
 }
