@@ -107,21 +107,22 @@ table {
     width: 37%;
 }
 .fade-top .logo img{
-    padding: 50px 0 0 55px;
+    margin: 50px 0 0 55px;
 }
 .fade-top .social{
     float: left;
     width: 63%;
 }
-.fade-top .social img{
+.fade-top .social a img{
     float: left;
-    padding: 55px 0 0 50px;
+    margin: 55px 0 0 50px;
 }
-.fade-top .social img:first-child{
-    padding: 25px 0 0;
+.fade-top>.social>img{
+    float: left;
+    margin: 25px 0 0;
 }
-.fade-top .social img:last-child{
-    padding: 10px 0 0 45px;
+.fade-top>.social>a:last-child>img{
+    margin: 10px 0 0 45px;
 }
 .main-menu{
     background: none repeat scroll 0 0 #fff;
@@ -149,9 +150,6 @@ table {
 }
 .main-menu>.first>.cart>p>img{
     margin: 0 0 -15px 0
-}
-.main-menu .second{
-
 }
 .main-menu .second li{
     float: left;
@@ -184,7 +182,6 @@ table {
     width: 100%;
     background: #000000;
 }
-
 .footer .first{
     padding-top: 30px;
     width: 960px;
@@ -240,4 +237,7 @@ table {
 }
 .footer .third li:first-child{
     margin-left: 250px;
+}
+.wrapper .content{
+    height: 800px;
 }
