@@ -10,4 +10,7 @@ $(document).ready(function() {
     $('#slider').rhinoslider({
         effect: 'shuffle'
     });
+    $("#lang_selector").click(function(){
+        console.log(("#lang_selector").parent())
+    });
 });
