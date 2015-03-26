@@ -26,7 +26,7 @@
                     <a href="#"><img src="img/soc3.jpg" alt=""/></a>
                     <a href="#"><img src="img/soc4.jpg" alt=""/></a>
                     <a href="#"><img src="img/soc5.jpg" alt=""/></a>
-                    <a href="#"><img src="img/close.jpg" alt=""/></a>
+                    <a href="#"><img class="top_hide" src="img/close.jpg" alt=""/></a>
                 </div>
             </div>
             <div class="top">
@@ -39,53 +39,49 @@
                 <ul class="right top-href">
                     <li><a href="#">Find a store</a></li>
                     <li><a href="#">Newsletter</a></li>
-                    <li><a href="#">Follow us</a></li>
+                    <li><a class="top_show" href="#">Follow us</a></li>
                     <li><a href="#">Radio</a></li>
                 </ul>
                 <div class="clear"></div>
             </div>
             <div class="main-menu">
                 <div class="first">
-                    <p><span>shop europe      fr - </span><a href="#"  id="lang_selector"> en
-                        <div class="langues">
-                            <div class="lang_wrap">
-                                <div class="block">
-                                    <span>france</span>
-                                    <p><img src="img/lock.jpg" alt=""/> shop online</p>
-                                    <p>institutionnal</p>
-                                </div>
-                                <div class="block">
-                                    <span>UK     </span>
-                                    <p><img src="img/lock.jpg" alt=""/> shop online</p>
-                                    <p>institutionnal</p>
-                                </div>
-                                <div class="block">
-                                    <span>europe</span>
-                                    <p><img src="img/lock.jpg" alt=""/> shop online</p>
-                                    <p>institutionnal</p>
-                                </div>
-                                <div class="block">
-                                    <span>USA</span>
-                                    <p><img src="img/lock.jpg" alt=""/> shop online</p>
-                                    <p>institutionnal</p>
-                                </div>
-                                <div class="block">
-                                    <span>japan</span>
-                                    <p><img src="img/lock.jpg" alt=""/> shop online</p>
-                                    <p>institutionnal</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a></p>
+                    <p><span>shop europe      fr - </span><a href="#"  id="lang_selector"> en</a></p>
                     <img src="img/big_text.jpg" alt=""/>
                     <div class="cart">
-                        <p>my account: <img src="img/shoop_cart.jpg" alt=""/></p>
+                        <p>my account: <img class="cart_show" src="img/shoop_cart.jpg" alt=""/></p>
                     </div>
                 </div>
                 <div class="second">
                     <ul>
                         <li><a href="#">woman</a></li>
-                        <li><a href="#">man</a></li>
+                        <li>
+                            <a href="#">man</a>
+                            <div class="drop_down">
+                                <a href="#"><img src="img/close3.jpg" alt=""/></a>
+                                <br/>
+                                <div class="clear"></div>
+                                <div class="drop_menu">
+                                    <ul>
+                                        <li><a href="#">new</a></li>
+                                        <li><a href="#">accessories</a></li>
+                                        <li><a href="#">suits</a></li>
+                                        <li><a href="#">jackets</a></li>
+                                        <li><a href="#">trousers</a></li>
+                                        <li><a href="#">shirts</a></li>
+                                        <li><a href="#">knitwear</a></li>
+                                        <li><a href="#">t-shirts</a></li>
+                                        <li><a href="#">bags</a></li>
+                                        <li><a href="#">shoes</a></li>
+                                        <li><a href="#">now in man</a></li>
+                                    </ul>
+                                </div>
+                                <div class="drop_pic">
+                                    <a href="#"><img src="img/pic1.jpg" alt=""/></a>
+                                    <a href="#"><img src="img/pic2.jpg" alt=""/></a>
+                                </div>
+                            </div>
+                        </li>
                         <li><a href="#">children</a></li>
                         <li><a href="#">accessories</a></li>
                         <li><a href="#">shoes</a></li>
@@ -98,24 +94,53 @@
                 </div>
             </div>
         </div>
-
-        <div class="shcart">
-            <div class="shcart_wrap">
-                <div class="close">
-                    <a href="#"><img src="img/close2.jpg" alt=""/></a>
-                </div>
-                <div class="scrolling">
+        <div class="content">
+            <div class="langues">
+                <div class="lang_wrap">
                     <div class="block">
-                        <img src="img/product.jpg" alt=""/>
-                        <div class="info">
-                            <p class="name">shirt Tom Oppo</p>
-                            <p class="description">Size : L <br/>Qte : 1</p>
-                            <p class="price"><span>100$</span>  50$</p>
-                            <br/>
-                            <br/>
-                            <a class="del" href="#">delete</a>
-                        </div>
-                    </div><div class="block">
+                        <span>france</span>
+                        <p><img src="img/lock.jpg" alt=""/> shop online</p>
+                        <p>institutionnal</p>
+                    </div>
+                    <div class="block">
+                        <span>UK     </span>
+                        <p><img src="img/lock.jpg" alt=""/> shop online</p>
+                        <p>institutionnal</p>
+                    </div>
+                    <div class="block">
+                        <span>europe</span>
+                        <p><img src="img/lock.jpg" alt=""/> shop online</p>
+                        <p>institutionnal</p>
+                    </div>
+                    <div class="block">
+                        <span>USA</span>
+                        <p><img src="img/lock.jpg" alt=""/> shop online</p>
+                        <p>institutionnal</p>
+                    </div>
+                    <div class="block">
+                        <span>japan</span>
+                        <p><img src="img/lock.jpg" alt=""/> shop online</p>
+                        <p>institutionnal</p>
+                    </div>
+                </div>
+            </div>
+            <div class="shcart">
+                <div class="shcart_wrap">
+                    <div class="close">
+                        <a class="sh_close" href="#"><img src="img/close2.jpg" alt=""/></a>
+                    </div>
+                    <div class="scrolling">
+                        <div class="block">
+                            <img src="img/product.jpg" alt=""/>
+                            <div class="info">
+                                <p class="name">shirt Tom Oppo</p>
+                                <p class="description">Size : L <br/>Qte : 1</p>
+                                <p class="price"><span>100$</span>  50$</p>
+                                <br/>
+                                <br/>
+                                <a class="del" href="#">delete</a>
+                            </div>
+                        </div><div class="block">
                         <img src="img/product.jpg" alt=""/>
                         <div class="info">
                             <p class="name">shirt Tom Oppo</p>
@@ -156,40 +181,17 @@
                             <a class="del" href="#">delete</a>
                         </div>
                     </div>
+                    </div>
+                    <div class="total">
+                        <p class="text">TOTAL</p>
+                        <p class="total_price">135$</p>
+                        <br/>
+                        <p class="delivery">Free shipping</p>
+                        <br/>
+                        <input type="submit" name="ok" value="PROCEED TO CHECKOUT"/>
+                    </div>
                 </div>
-                <div class="total">
-                    <p class="text">TOTAL</p>
-                    <p class="total_price">135$</p>
-                    <br/>
-                    <p class="delivery">Free shipping</p>
-                    <br/>
-                    <input type="submit" name="ok" value="PROCEED TO CHECKOUT"/>
-                </div>
             </div>
-        </div>
-        <div class="drop_down">
-            <a href="#"><img src="img/close3.jpg" alt=""/></a>
-            <div class="drop_menu">
-                <ul>
-                    <li><a href="#">new</a></li>
-                    <li><a href="#">accessories</a></li>
-                    <li><a href="#">suits</a></li>
-                    <li><a href="#">jackets</a></li>
-                    <li><a href="#">trousers</a></li>
-                    <li><a href="#">shirts</a></li>
-                    <li><a href="#">knitwear</a></li>
-                    <li><a href="#">t-shirts</a></li>
-                    <li><a href="#">bags</a></li>
-                    <li><a href="#">shoes</a></li>
-                    <li><a href="#">now in man</a></li>
-                </ul>
-            </div>
-            <div class="drop_pic">
-                <a href="#"><img src="img/pic1.jpg" alt=""/></a>
-                <a href="#"><img src="img/pic2.jpg" alt=""/></a>
-            </div>
-        </div>
-        <div class="content">
             <div id="page">
                 <ul id="slider">
                     <li><img src="img/slider/01.jpg" alt="" /></li>
@@ -221,7 +223,56 @@
                     </select>
                 </div>
                 <div class="products">
-
+                    <div class="prod_block">
+                        <img src="img/prod1.jpg" alt=""/>
+                        <p class="name">shirt</p>
+                        <p class="price">100 $</p>
+                    </div>
+                    <div class="prod_block">
+                        <img src="img/prod1.jpg" alt=""/>
+                        <p class="name">shirt</p>
+                        <p class="price">100 $</p>
+                    </div>
+                    <div class="prod_block">
+                        <img src="img/prod1.jpg" alt=""/>
+                        <p class="name">shirt</p>
+                        <p class="price">100 $</p>
+                    </div>
+                    <div class="prod_block">
+                        <img src="img/prod1.jpg" alt=""/>
+                        <p class="name">shirt</p>
+                        <p class="price">100 $</p>
+                    </div>
+                    <div class="prod_block">
+                        <img src="img/prod1.jpg" alt=""/>
+                        <p class="name">shirt</p>
+                        <p class="price">100 $</p>
+                    </div>
+                    <div class="prod_block">
+                        <img src="img/prod1.jpg" alt=""/>
+                        <p class="name">shirt</p>
+                        <p class="price">100 $</p>
+                    </div>
+                    <div class="prod_block">
+                        <img src="img/prod1.jpg" alt=""/>
+                        <p class="name">shirt</p>
+                        <p class="price">100 $</p>
+                    </div>
+                    <div class="prod_block">
+                        <img src="img/prod1.jpg" alt=""/>
+                        <p class="name">shirt</p>
+                        <p class="price">100 $</p>
+                    </div>
+                    <div class="prod_block">
+                        <img src="img/prod1.jpg" alt=""/>
+                        <p class="name">shirt</p>
+                        <p class="price">100 $</p>
+                    </div>
+                    <div class="prod_block">
+                        <img src="img/prod1.jpg" alt=""/>
+                        <p class="name">shirt</p>
+                        <p class="price">100 $</p>
+                    </div>
                 </div>
             </div>
         </div>

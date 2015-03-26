@@ -56,8 +56,9 @@ table {
     url('../fonts/HelveticaLTStdBoldCond.svg#HelveticaLTStdBoldCond') format('svg');
 }
 .wrapper{
-    width: 960px;
+    width: 100%;
     margin: 0 auto;
+    float: left;
 }
 .header .top{
     background: #000;
@@ -155,7 +156,7 @@ table {
     float: left;
     margin: 15px 0 0 20px;
 }
-.main-menu .second li:first-child{
+.main-menu  .second  li:first-child{
     margin-left: 150px;
 }
 .main-menu .second li,
@@ -181,6 +182,7 @@ table {
 .footer{
     width: 100%;
     background: #000000;
+    float: left;
 }
 .footer .first{
     padding-top: 30px;
@@ -242,10 +244,10 @@ table {
     background: none repeat scroll 0 0 #fff;
     border: 1px solid #e9e9e9;
     height: 215px;
-    margin-top: 11px;
+    margin-top: -130px;
     width: 295px;
     position: absolute;
-    top: 300px;
+    top: 0;
     display: none;
     z-index: 11;
 }
@@ -287,12 +289,13 @@ table {
 .shcart{
     background: none repeat scroll 0 0 #fff;
     border: 1px solid #e9e9e9;
-    margin-top: 11px;
-    right: 310px;
+    right: 0;
     width: 325px;
     position: absolute;
-    top: 295px;
+    top: 0;
     display: none;
+    margin-top: -130px;
+    z-index: 3;
 }
 .shcart .shcart_wrap{
     margin-top: -11px;
@@ -388,6 +391,8 @@ table {
     background: none repeat scroll 0 0 #fff;
     height: 490px;
     display: none;
+    position: absolute;
+    z-index: 13;
 }
 .drop_down img{
     float: right;
@@ -403,20 +408,23 @@ table {
     margin-top: 46px;
     width: 770px;
 }
-.drop_down .drop_menu li{
+.drop_down>.drop_menu>li:first-child{
+    margin-left: 0;
+}
+.drop_down>.drop_menu>li{
     padding: 15px 0 0 30px;
 }
-.drop_down .drop_menu li,
-.drop_down .drop_menu li a{
+.drop_down>.drop_menu>li,
+.drop_down>.drop_menu>li>a{
     font-family: HelveticaLTStdBoldCond;
     font-size: 14px;
     text-transform: uppercase;
     color: #000000;
 }
-.drop_down .drop_menu a{
+.drop_down>.drop_menu>a{
     text-decoration: none;
 }
-.drop_down .drop_menu li:last-child{
+.drop_down>.drop_menu>li:last-child{
     margin-top: 35px;
 }
 .drop_down .drop_pic a{
@@ -490,4 +498,38 @@ table {
     font-family: HelveticaLTStdBoldCond;
     font-size: 12px;
     text-transform: uppercase;
+}
+.content .products_page .products .prod_block{
+    padding: 50px 7px;
+    width: 23%;
+    float: left;
+}
+.content .products_page .products .prod_block .name{
+    margin: 25px 0 0 10px;
+    color: #4d4d4d;
+    font-family: HelveticaLTStdBoldCond;
+    font-size: 14px;
+}
+.content .products_page .products .prod_block .price{
+    margin: 15px 0 0 10px;
+    color: #000000
+    font-family: HelveticaLTStdBoldCond;
+    font-size: 16px;
+    font-weight: bold;
+}
+.content .products_page .products{
+    float: left;
+}
+.wrapper .content{
+    background: none repeat scroll 0 0 #fff;
+    margin: 0 auto;
+    width: 960px;
+    position: relative;
+}
+.wrapper .header{
+    margin: 0 auto;
+    width: 960px;
+}
+.fade-top{
+    display: none;
 }

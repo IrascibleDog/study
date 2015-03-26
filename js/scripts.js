@@ -14,6 +14,28 @@ $(document).ready(function(){
     }).mouseleave(function(){
         $('.langues').hide();
     });
+    $(".top_show").click(function(){
+        $(".fade-top").slideToggle("slow");
+    });
+    $(".top_hide").click(function(){
+        $(".fade-top").slideToggle("slow");
+    });
+    var shop = $(".cart_show, .shcart");
+    shop.mouseenter(function(){
+        $('.shcart').show();
+    }).mouseleave(function(){
+        $('.shcart').hide();
+    });
+    $(".sh_close").click(function(){
+        $('.shcart').hide();
+    })
+    $(".second li").hover(
+        function(){
+        $("div", this).slideDown(100);
+    },
+    function(){
+        $("div", this).slideUp(100);
+    });
 });
 $(document).ready(function() {
     $('#slider').rhinoslider({
