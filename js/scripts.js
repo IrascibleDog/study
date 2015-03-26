@@ -39,6 +39,34 @@ $(document).ready(function(){
     $(".slide_close").click(function(){
         $(".drop_down").hide();
     })
+    $('.form_page select').msDropDown();
+    //$('input[type=text]').focus(function(){
+    //    $(this).css({border:'2px solid red', background: 'grey'});
+    //}).change(function(){
+    //   if(this.val() == ""){
+    //       $(this).css({background: '#FBACAC'})
+    //   }
+    //});
+    $('input[type=text]').focus(function(){
+        $(this).css({border: '2px solid red', background: '#999'});
+    }).blur(function(){
+        var newVal = $(this).val().replace(/\s/g, '');
+        $(this).val(newVal);
+        if ($(this).val() == "" ) {
+            $(this).css({border: '1px solid red', background: '#FBACAC'})
+        }
+    }).change(function(){
+        if ($(this).val() == "" ) {
+            $(this).css({border: '1px solid red', background: '#FBACAC'});
+        }
+    });
+    $('#pass').focus(function(){
+        $(this).val('');
+    }).blur(function(){
+       if ($(this).val().length<=5){
+           alert("Vai Vasya, kyda tak malo, da!?");
+       }
+    });
 });
 $(document).ready(function() {
     $('#slider').rhinoslider({
