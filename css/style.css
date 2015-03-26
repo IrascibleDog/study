@@ -156,7 +156,7 @@ table {
     float: left;
     margin: 15px 0 0 20px;
 }
-.main-menu  .second  li:first-child{
+.main-menu>.second>ul>li:first-child{
     margin-left: 150px;
 }
 .main-menu .second li,
@@ -408,23 +408,21 @@ table {
     margin-top: 46px;
     width: 770px;
 }
-.drop_down>.drop_menu>li:first-child{
-    margin-left: 0;
+.drop_down>.drop_menu>ul>li{
+    padding: 0 0 0 30px;
+    width: 160px;
 }
-.drop_down>.drop_menu>li{
-    padding: 15px 0 0 30px;
-}
-.drop_down>.drop_menu>li,
-.drop_down>.drop_menu>li>a{
+.drop_down>.drop_menu>ul>li,
+.drop_down>.drop_menu>ul>li>a{
     font-family: HelveticaLTStdBoldCond;
     font-size: 14px;
     text-transform: uppercase;
     color: #000000;
 }
-.drop_down>.drop_menu>a{
+.drop_down>.drop_menu>ul>li>a{
     text-decoration: none;
 }
-.drop_down>.drop_menu>li:last-child{
+.drop_down>.drop_menu>ul>li:last-child{
     margin-top: 35px;
 }
 .drop_down .drop_pic a{

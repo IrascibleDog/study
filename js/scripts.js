@@ -31,11 +31,14 @@ $(document).ready(function(){
     })
     $(".second li").hover(
         function(){
-        $("div", this).slideDown(100);
+        $("div", this).show(100);
     },
     function(){
-        $("div", this).slideUp(100);
+        $("div", this).hide(100);
     });
+    $(".slide_close").click(function(){
+        $(".drop_down").hide();
+    })
 });
 $(document).ready(function() {
     $('#slider').rhinoslider({
