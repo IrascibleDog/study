@@ -535,3 +535,67 @@ table {
     width: 200px;
     margin: 10px auto;
 }
+input[type="checkbox"].css-checkbox + label.css-label {
+    padding-left:20px;
+    height:15px;
+    display:inline-block;
+    line-height:15px;
+    font-size:15px;
+    vertical-align:middle;
+    cursor:pointer;
+    background: url("../img/checkbox-unchecked.png") 0 0 no-repeat;
+}
+label.css-label {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+input[type="checkbox"].css-checkbox.checked + label.css-label {
+    background: url("../img/checkbox-checked.png") 0 13px no-repeat;
+}
+input[type="checkbox"].css-checkbox:checked + label.css-label {
+    background: url("../img/checkbox-checked.png") 0 0 no-repeat;
+}
+input[type="checkbox"].css-checkbox,
+input[type="radio"].css-checkbox {
+    display: inline-block;
+    opacity: 0 !important;
+    width: 0 !important;
+    height: 0 !important;
+    border:0 !important;
+    line-height: 0 !important;
+    overflow: hidden;
+    position: absolute;
+    left: -20px;
+    /*   for ie8   */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+}
+.interactionWindow input[type="radio"].css-checkbox {top:0;}
+input[type="radio"].css-checkbox + label.css-label {
+    padding-left:24px;
+    display:inline-block;
+    cursor:pointer;
+    background: url("../img/radio-uncheked.png") 0 -3px no-repeat;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+label.css-label {
+    background:url("../img/radio-uncheked.png") 0 -3px no-repeat;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+input[type="radio"].css-checkbox.checked + label.css-label {
+    background: url("../img/radio-cheked.png") 0 -3px no-repeat;
+}
+input[type="radio"].css-checkbox:checked + label.css-label {
+    background: url("../img/radio-cheked.png") 0 -3px no-repeat;
+}
