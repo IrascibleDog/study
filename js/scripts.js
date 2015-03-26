@@ -17,7 +17,7 @@ $(document).ready(function(){
 });
 $(document).ready(function() {
     $('#slider').rhinoslider({
-        effect: 'shuffle'
+        effect: 'fade'
     });
 });
 //$(document).ready(function(){

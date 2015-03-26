@@ -474,3 +474,20 @@ table {
 .wrapper .content .products_page .top p strong{
     font-weight: bold;
 }
+.wrapper .content .products_page .top .right{
+    background: none repeat scroll 0 0 #fff;
+    border: medium none;
+    color: #000;
+    float: right;
+    font-family: HelveticaLTStdBoldCond;
+    font-size: 12px;
+    font-weight: bold;
+    height: 25px;
+    text-transform: uppercase;
+    width: 150px;
+}
+.wrapper .content .products_page .top .right option{
+    font-family: HelveticaLTStdBoldCond;
+    font-size: 12px;
+    text-transform: uppercase;
+}
