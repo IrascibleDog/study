@@ -531,3 +531,7 @@ table {
 .fade-top{
     display: none;
 }
+.input-box{
+    width: 200px;
+    margin: 10px auto;
+}
