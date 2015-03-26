@@ -2,16 +2,22 @@
  * Created by freddy on 23.03.15.
  */
 $(document).ready(function(){
-    $("#lang_selector").click(function(){
-        $(".langues").slideToggle("slow");
+    /*$("#lang_selector").mouseenter(function(){
+        $(".langues").show();
+    });
+    *//*$(("#lang_selector")&&(".langues")).mouseleave(function(){
+        $(".langues").hide();
+    });*/
+    var lang = $('#lang_selector, .langues');
+    lang.mouseenter(function(){
+        $('.langues').show();
+    }).mouseleave(function(){
+        $('.langues').hide();
     });
 });
 $(document).ready(function() {
     $('#slider').rhinoslider({
         effect: 'shuffle'
-    });
-    $("#lang_selector").click(function(){
-        console.log(("#lang_selector").parent())
     });
 });
 //$(document).ready(function(){
