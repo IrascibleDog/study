@@ -532,7 +532,7 @@ table {
     display: none;
 }
 .input-box{
-    width: 700px;
+    width: 800px;
     margin: 10px auto;
 }
 input[type="checkbox"].css-checkbox + label.css-label {
@@ -616,4 +616,50 @@ input[type="radio"].css-checkbox:checked + label.css-label {
     height: 250px;
     margin: 250px auto;
     background: #ffffff;
+}
+.registration{
+    width: 960px;
+    margin: 0 auto;
+}
+.registration .f-block{
+    background: none repeat scroll 0 0 #f5f5f5;
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    width: 880px;
+    color: #000000;
+    font-size: 14px;
+    font-family: HelveticaLTStdBoldCond;
+}
+.registration .s-block{
+    background: none repeat scroll 0 0 #f5f5f5;
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    width: 880px;
+    color: #000000;
+    font-size: 14px;
+    font-family: HelveticaLTStdBoldCond;
+}
+.registration>form>.f-block>p{
+    font-weight: bold;
+}
+.registration>form>.l-block>p{
+    font-weight: bold;
+}
+.registration .tip{
+    display: none;
+}
+.registration .f-var label:first-child{
+    width: 165px;
+    text-align: right;
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.registration .f-var input{
+
+}
+.registration .s-var{
+    margin-left: 215px;
 }
