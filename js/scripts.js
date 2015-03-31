@@ -74,7 +74,22 @@ $(document).ready(function(){
     $('#closeclick').click(function(){
         $('#popupwrapper').hide();
     });
+    var login = $('#login');
+    login.blur(function () {
+        var val = login.val();
+        if (validateEmail(val) == true){
+            $(login).css({border: '1px solid red', background: '#fff'});
+        }
+        else{
+            $(login).css({border: '1px solid red', background: '#000'});
+        }
+    });
 });
+function validateEmail(elementValue){
+    var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+    return emailPattern.test(elementValue);
+}
+
 $(document).ready(function() {
     $('#slider').rhinoslider({
         effect: 'fade'

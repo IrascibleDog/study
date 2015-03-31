@@ -644,7 +644,7 @@ input[type="radio"].css-checkbox:checked + label.css-label {
 .registration>form>.f-block>p{
     font-weight: bold;
 }
-.registration>form>.l-block>p{
+.registration>form>.s-block>p{
     font-weight: bold;
 }
 .registration .tip{
@@ -662,4 +662,8 @@ input[type="radio"].css-checkbox:checked + label.css-label {
 }
 .registration .s-var{
     margin-left: 215px;
+}
+.main-menu .second li a:hover{
+    color: red;
+    text-decoration: underline;
 }
