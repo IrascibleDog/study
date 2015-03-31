@@ -31,10 +31,10 @@ $(document).ready(function(){
     })
     $(".second li").hover(
         function(){
-        $("div", this).show(100);
+        $("div", this).show(30);
     },
     function(){
-        $("div", this).hide(100);
+        $("div", this).hide(30);
     });
     $(".slide_close").click(function(){
         $(".drop_down").hide();
@@ -66,6 +66,13 @@ $(document).ready(function(){
        if ($(this).val().length<=5){
            alert("Vai Vasya, kyda tak malo, da!?");
        }
+    });
+
+    $('#clickme').click(function(){
+        $('#popupwrapper').show();
+    });
+    $('#closeclick').click(function(){
+        $('#popupwrapper').hide();
     });
 });
 $(document).ready(function() {
