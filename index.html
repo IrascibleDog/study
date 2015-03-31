@@ -327,48 +327,179 @@
                     </div>
                 </div>
             </div>
-            <div class="form_page">
+            <div class="registration">
                 <form action="#" method="post">
-                    <div class="input-box">
-                        <label for="login">login</label>
-                        <input type="text" name="login" id="login"/>
-                        <div class="validation"></div>
+                    <div class="f-block">
+                        <p>MY ACCOUNT</p>
+                        <div class="input-box">
+                            <label for="email">e-mail</label>
+                            <input type="text" name="email" id="email"/>
+                            <a href="#"><img src="" alt=""/>
+                                <div class="tip">
+                                    <p>enter e-mail like email@email.com</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="input-box">
+                            <label for="pass1">password</label>
+                            <input type="password" name="pass1" id="pass1"/>
+                        </div>
+                        <div class="input-box">
+                            <label for="pass2">confirm password</label>
+                            <input type="password" name="pass2" id="pass2"/>
+                        </div>
+                        <div class="input-box">
+                            <label for="receive">I wish to receive spam</label>
+                            <input type="checkbox" name="receive" id="receive"/>
+                        </div>
+                        <div class="input-box">
+                            <p>Choose collection.</p>
+                            <label for="woman">WOMAN</label>
+                            <input type="checkbox" name="woman" id="woman" value="woman"/>
+                            <label for="man">MAN</label>
+                            <input type="checkbox" name="man" id="man" value="man"/>
+                            <label for="boy-girl">BOY / GIRL</label>
+                            <input type="checkbox" name="boy-girl" id="boy-girl" value="boy-girl"/>
+                            <label for="accessories">ACCESSORIES</label>
+                            <input type="checkbox" name="accessories" id="accessories" value="accessories"/>
+                        </div>
+                        <div class="input-box">
+                            <p>What culture universe do you enjoy best?</p>
+                            <label for="cinema">CINEMA</label>
+                            <input type="checkbox" name="cinema" id="cinema" value="cinema"/>
+                            <label for="music">MUSIC</label>
+                            <input type="checkbox" name="music" id="music" value="music"/>
+                            <label for="photo">PHOTO</label>
+                            <input type="checkbox" name="photo" id="photo" value="photo"/>
+                            <label for="hum-soc">HUMANITARIAN & SOCIAL</label>
+                            <input type="checkbox" name="hum-soc" id="hum-soc" value="hum-soc"/>
+                            <label for="art">ART</label>
+                            <input type="checkbox" name="art" id="art" value="art"/>
+                            <label for="tara">TARA EXPEDITIONS</label>
+                            <input type="checkbox" name="tara" id="tara" value="tara"/>
+                        </div>
                     </div>
-                    <div class="input-box">
-                        <label for="pass">password</label>
-                        <input type="password" name="password" id="pass"/>
-                    </div>
-                    <div class="input-box">
-                        <input class="css-checkbox" type="checkbox" name="woman" value="woman" id="woman"/>
-                        <label class="css-label" for="woman">woman</label>
-                        <input class="css-checkbox" type="checkbox" name="man" value="man" id="man"/>
-                        <label class="css-label" for="man">man</label>
-                    </div>
-                    <div class="input-box">
-                        <input class="css-checkbox"  type="radio" value="films" name="music" id="films"/>
-                        <label class="css-label" for="films">films</label>
-                        <input class="css-checkbox"  type="radio" value="music" name="music" id="music"/>
-                        <label class="css-label" for="music">music</label>
-                        <input class="css-checkbox"  type="radio" value="photo" name="music" id="photo"/>
-                        <label class="css-label" for="photo">photo</label>
-                    </div>
-                    <div class="input-box">
-                        <label for="sex">Your sex</label>
-                        <select name="sex" id="sex">
-                            <option value="Mr">Mr</option>
-                            <option value="Mrs">Mrs</option>
-                        </select>
-                    </div>
-                    <div class="input-box">
-                        <label for="about">About yourself</label>
-                        <textarea name="about" id="about" cols="30" rows="10"></textarea>
-                    </div>
-                    <div class="input-box">
-                        <input type="submit" value="send"/>
+                    <div class="s-block">
+                        <p>MY PERSONAL INFORMATION</p>
+                        <div class="input-box">
+                            <label for="sex">title*</label>
+                            <select name="sex" id="sex">
+                                <option value="mr">Mr</option>
+                                <option value="mrs">Mrs</option>
+                            </select>
+                        </div>
+                        <div class="input-box">
+                            <label for="f-name">first name*</label>
+                            <input type="text" name="f-name" id="f-name"/>
+                        </div>
+                        <div class="input-box">
+                            <label for="l-name">last name*</label>
+                            <input type="text" name="l-name" id="l-name"/>
+                        </div>
+                        <br/>
+                        <div class="input-box">
+                            <label for="address-name">address name*</label>
+                            <input type="text" name="address-name" id="address-name"/>
+                        </div>
+                        <div class="input-box">
+                            <label for="address">address*</label>
+                            <input type="text" name="address" id="address"/>
+                        </div>
+                        <div class="input-box">
+                            <label for="address2">address 2</label>
+                            <input type="text" name="address2" id="address2"/>
+                            <a href="#"><img src="" alt=""/>
+                                <div class="tip">
+                                    <p>seacond address</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="input-box">
+                            <label for="zip">ZIP / postal code*</label>
+                            <input type="text" name="zip" id="zip"/>
+                        </div>
+                        <div class="input-box">
+                            <label for="country">country*</label>
+                            <select name="country" id="country">
+                                <option value="USA">USA</option>
+                                <option value="England">England</option>
+                            </select>
+                            <label for="state">state*</label>
+                            <select name="state" id="state">
+                                <option value="California">California</option>
+                                <option value="California">California</option>
+                                <option value="California">California</option>
+                            </select>
+                        </div>
+                        <br/>
+                        <div class="input-box">
+                            <label for="phone-number">phone number*</label>
+                            <input type="text" name="phone-number" id="phone-number"/>
+                            <label for="or-number">or</label>
+                            <input type="text" name="or-number" id="or-number"/>
+                            <a href="#"><img src="" alt=""/>
+                                <div class="tip">
+                                    <p>phone template</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="input-box">
+                            <label for="birth-day">birth date</label>
+                            <input type="text" name="birth" id="birth-day"/>
+                            <label for="birth-month"></label>
+                            <input type="text" name="birth" id="birth-month"/>
+                            <label for="birth-year"></label>
+                            <input type="text" name="birth" id="birth-year"/>
+                        </div>
+                        <div class="input-box">
+                            <input type="button" value="CANCEL"/>
+                            <input type="submit" value="SAVE MODIFICATIONS"/>
+                        </div>
                     </div>
                 </form>
             </div>
-            <a id="clickme" href="javascript:void(0)">Click me!</a>
+            <!--<div class="form_page">-->
+                <!--<form action="#" method="post">-->
+                    <!--<div class="input-box">-->
+                        <!--<label for="login">login</label>-->
+                        <!--<input type="text" name="login" id="login"/>-->
+                        <!--<div class="validation"></div>-->
+                    <!--</div>-->
+                    <!--<div class="input-box">-->
+                        <!--<label for="pass">password</label>-->
+                        <!--<input type="password" name="password" id="pass"/>-->
+                    <!--</div>-->
+                    <!--<div class="input-box">-->
+                        <!--<input class="css-checkbox" type="checkbox" name="woman" value="woman" id="woman"/>-->
+                        <!--<label class="css-label" for="woman">woman</label>-->
+                        <!--<input class="css-checkbox" type="checkbox" name="man" value="man" id="man"/>-->
+                        <!--<label class="css-label" for="man">man</label>-->
+                    <!--</div>-->
+                    <!--<div class="input-box">-->
+                        <!--<input class="css-checkbox"  type="radio" value="films" name="music" id="films"/>-->
+                        <!--<label class="css-label" for="films">films</label>-->
+                        <!--<input class="css-checkbox"  type="radio" value="music" name="music" id="music"/>-->
+                        <!--<label class="css-label" for="music">music</label>-->
+                        <!--<input class="css-checkbox"  type="radio" value="photo" name="music" id="photo"/>-->
+                        <!--<label class="css-label" for="photo">photo</label>-->
+                    <!--</div>-->
+                    <!--<div class="input-box">-->
+                        <!--<label for="sex">Your sex</label>-->
+                        <!--<select name="sex" id="sex">-->
+                            <!--<option value="Mr">Mr</option>-->
+                            <!--<option value="Mrs">Mrs</option>-->
+                        <!--</select>-->
+                    <!--</div>-->
+                    <!--<div class="input-box">-->
+                        <!--<label for="about">About yourself</label>-->
+                        <!--<textarea name="about" id="about" cols="30" rows="10"></textarea>-->
+                    <!--</div>-->
+                    <!--<div class="input-box">-->
+                        <!--<input type="submit" value="send"/>-->
+                    <!--</div>-->
+                <!--</form>-->
+            <!--</div>-->
+            <!--<a id="clickme" href="javascript:void(0)">Click me!</a>-->
 
             <div id="popupwrapper">
                 <div class="content">

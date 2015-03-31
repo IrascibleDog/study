@@ -532,7 +532,7 @@ table {
     display: none;
 }
 .input-box{
-    width: 200px;
+    width: 700px;
     margin: 10px auto;
 }
 input[type="checkbox"].css-checkbox + label.css-label {
